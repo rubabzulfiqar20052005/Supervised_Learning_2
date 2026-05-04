@@ -1,0 +1,4 @@
+Model,Train Accuracy,Test Accuracy,F1 Score,AUC-ROC,OOB Error,Tree Depth,Leaves
+DT (No Depth Limit),1.0000,0.7049,0.7429,0.6975,N/A,8,42
+DT (Pruned — GridSearchCV),0.8430,0.7541,0.7826,0.8193,N/A,3,8
+Random Forest (100 Trees),1.0000,0.8361,0.8649,0.9161,0.1901,N/A (Ensemble),100 trees
